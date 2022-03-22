@@ -1,0 +1,20 @@
+// 매개변수가 없는 문자열 반환값을 가지는 함수
+String str1() {
+  return 'Hello';
+ }
+ 
+ // 매개변수가 있는 반환값을 가지지 않는 함수
+ void str2(double x, double y) {
+  double result;
+  result = x / y;
+  print(result);
+ }
+ 
+ void main() {
+  // str1()함수 호출
+  String result = str1();
+  print(result);
+  
+  // str2()함수 호출
+  str2(30.5, 10.0);
+ }

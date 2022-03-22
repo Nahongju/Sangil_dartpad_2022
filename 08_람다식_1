@@ -1,0 +1,10 @@
+// 람다식 : 짝, 홀 판별 (짝수 : true, 홀수 : false)
+var even = (number) => number % 2 == 0;
+
+void main() {
+	int num = 8;
+	
+	// 람다시 판별 결과를 저장할 변수 선언
+	bool tf = even(num);
+	print(tf);
+}

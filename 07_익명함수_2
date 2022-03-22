@@ -1,0 +1,13 @@
+var mux = (num1, num2) {
+  return num1 * num2;
+};
+
+void main() {
+  int x = 30;
+  int y = 5;
+  
+  // 익명함수의 결과값을 저장할 변수 선언
+  int result = mux(x, y);
+  
+  print(result);
+}

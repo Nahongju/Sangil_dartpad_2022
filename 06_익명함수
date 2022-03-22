@@ -1,0 +1,19 @@
+// 1. main()함수 밖에서 익명함수 선언 (짝수 : false, 홀수 : true)
+var odd = (number) {
+  return number % 2 != 0;
+};
+ 
+void main() {
+  int num = 5;
+  
+  // 2. main()함수 안에서 익명함수 선언 (짝수 : true, 홀수 : false)
+  var even = (number) {
+    return number % 2 == 0;
+  };
+   
+  // 1-1. 익명함수 호출 후 출력
+  print(odd(num));
+  
+  // 2-1. 익명함수 호출 후 출력
+  print(even(num));
+}

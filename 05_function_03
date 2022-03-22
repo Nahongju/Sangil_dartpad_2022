@@ -1,0 +1,28 @@
+// 매개변수가 있는 함수
+void gob(int x, int y){
+  int result = x * y;
+  print(result);
+ }
+ 
+ // 매개변수가 없는 함수
+ int div() {
+  int x = 35;
+  int y = 4;
+  
+  int result = x % y;
+  
+  return result;
+ }
+ 
+ void main() {
+  int num1 = 10;
+  int num2 = 6;
+  int result;           // div() 함수에서 받은 값(return 값)을 저장할 변수
+  
+  // gob(int x, int y) 호출
+  gob(num1, num2);
+  
+  // div() 호출
+  result = div();
+  print(result);
+ }

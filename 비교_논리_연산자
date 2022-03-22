@@ -1,0 +1,26 @@
+void main() {
+  int a = 5;
+  int b = 8;
+  
+  // 비교 연산자
+  print('비교 연산자');
+  print(a == b);    // 같다           false
+  print(a != b);    // 다르다          true
+  print(a > b);     // 크다, 작다       false
+  print(a < b);     //                true
+  print(a >= b);    // 같거나 크다, 같거나 작다   false
+  print(a <= b);    //                true
+  
+  // 논리 연산자
+  // AND 연산자 ( && )
+  print('AND 연산자');
+  print(true && true);
+  print(true && false);
+  print(false && false);
+  
+  // OR 연산자 ( || )
+  print('OR 연산자');
+  print(true || true);
+  print(false || true);
+  print(false || false);
+}
